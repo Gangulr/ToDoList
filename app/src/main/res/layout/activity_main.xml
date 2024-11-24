@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".MainActivity">
+
+    <!-- Header Text -->
+    <TextView
+        android:id="@+id/headerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HERE YOUR TASKS"
+        android:textColor="@color/accentColor"
+        android:textSize="28sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:letterSpacing="0.05"
+        android:gravity="center"
+        android:elevation="6dp"
+        android:shadowColor="@android:color/darker_gray"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="4"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="8dp" />
+
+
+
+    <!-- Task List Button -->
+    <Button
+        android:id="@+id/btnTaskList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Task List"
+        android:textColor="@color/white"
+        android:background="@drawable/button_background"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/headerText"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:paddingVertical="12dp"
+        android:paddingHorizontal="24dp"
+        android:elevation="4dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center" />
+
+    <!-- Timer/Stopwatch Button -->
+    <Button
+        android:id="@+id/btnTimerStopwatch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Timer/Stopwatch"
+        android:textColor="@color/white"
+        android:background="@drawable/button_background"
+        android:layout_below="@id/btnTaskList"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:paddingVertical="12dp"
+        android:paddingHorizontal="24dp"
+        android:elevation="4dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center" />
+
+    <!-- Reminders Button -->
+    <Button
+        android:id="@+id/btnReminder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reminders"
+        android:textColor="@color/white"
+        android:background="@drawable/button_background"
+        android:layout_below="@id/btnTimerStopwatch"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:paddingVertical="12dp"
+        android:paddingHorizontal="24dp"
+        android:elevation="4dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center" />
+
+    <!-- Navigation Bar with Icons -->
+    <LinearLayout
+        android:id="@+id/navBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#333"
+        android:padding="10dp">
+
+        <!-- Task List Icon -->
+        <ImageView
+            android:id="@+id/navTaskList"
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:contentDescription="Task List"
+            android:focusable="true"
+            android:padding="8dp"
+            android:src="@drawable/ic_task_list" />
+
+        <!-- Timer/Stopwatch Icon -->
+        <ImageView
+            android:id="@+id/navTimerStopwatch"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_timer"
+            android:contentDescription="Timer/Stopwatch"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <!-- Reminders Icon -->
+        <ImageView
+            android:id="@+id/navReminder"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_reminder"
+            android:contentDescription="Reminders"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <!-- Home Icon -->
+        <ImageView
+            android:id="@+id/navHome"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_home"
+            android:contentDescription="Home"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:clickable="true"
+            android:focusable="true" />
+    </LinearLayout>
+</RelativeLayout>

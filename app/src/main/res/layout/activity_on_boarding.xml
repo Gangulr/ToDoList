@@ -1,0 +1,54 @@
+<!-- res/layout/activity_on_boarding.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <!-- Title TextView at the Top -->
+
+
+    <!-- Centered ImageView with Rounded Corners -->
+
+    <TextView
+        android:id="@+id/txtWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="29dp"
+        android:background="@drawable/textview_background"
+        android:elevation="4dp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:shadowColor="@color/black"
+        android:text="WELCOME TO DO LIST APP"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgOnboarding"
+        android:layout_width="345dp"
+        android:layout_height="420dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mainimg"
+        android:elevation="4dp"
+        android:padding="8dp"/>
+
+    <!-- Get Started Button -->
+    <Button
+        android:id="@+id/btnGetStarted"
+        android:layout_width="237dp"
+        android:layout_height="66dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="@color/button_color"
+        android:text="Get Started"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</RelativeLayout>

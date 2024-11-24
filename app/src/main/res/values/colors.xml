@@ -1,0 +1,20 @@
+<resources>
+    <color name="text_color">#4A4A4A</color> <!-- Text color -->
+    <color name="hint_text_color">#BBBBBB</color> <!-- Hint text color -->
+    <color name="button_color">#4CAF50</color> <!-- Border color -->
+    <color name="primaryTextColor">#2C2C2C</color>
+    <color name="black">#292929</color>
+    <color name="backgroundColor">#D1E8E2</color>
+    <color name="shadowColor">#A1A1A1</color>
+    <color name="dividerColor">#BFBFBF</color>
+    <color name="listViewBackground">#EFEFEF</color>
+    <color name="buttonDefaultColor">#FF5722</color>
+    <color name="buttonPressedColor">#D84315</color>
+    <color name="buttonBorderColor">#FFFFFF</color>
+    <color name="buttonTextColor">#EFEFEF</color>
+    <color name="white">#FBFBFB</color>
+    <color name="button_color_light">#FFEB3B</color>
+    <color name="button_color_dark">#FFC107</color>
+    <color name="primaryColor">#009688</color>
+    <color name="accentColor">#8E24AA</color>
+</resources>

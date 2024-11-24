@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">TaskManager</string>
+    <string name="enter_reminder_message">Input task details</string>
+    <string name="select_date">Pick a Date</string>
+    <string name="select_time">Pick a Time</string>
+    <string name="create_reminder">Set Task</string>
+    <string name="update_reminder">Modify Task</string>
+    <string name="delete_reminder">Remove Task</string>
+    <string name="reminder_created">Task added successfully!</string>
+    <string name="reminder_updated">Task updated successfully!</string>
+    <string name="reminder_deleted">Task removed successfully!</string>
+    <string name="error_empty_reminder_message">Task description cannot be blank</string>
+    <string name="error_empty_date">Date field cannot be blank</string>
+    <string name="error_empty_time">Time field cannot be blank</string>
+    <string name="selected_date">Chosen Date: %d-%d-%d</string>
+    <string name="selected_time">Chosen Time: %d:%d</string>
+    <string name="no_reminders">No tasks available</string>
+    <string name="error_cannot_schedule_exact_alarms">Unable to set precise alarms. Please allow this permission in settings.</string>
+    <string name="error_security_exception">There was an issue setting the alarm.</string>
+    <string name="task_list">Task Overview</string>
+    <string name="timer_stopwatch">Countdown Timer</string>
+    <string name="reminder">Task Reminder</string>
+    <string name="home">Dashboard</string>
+    <string name="error_generic_exception">An error occurred. Please try again.</string>
+    <string name="your_reminder_header">Task Details</string>
+    <string name="task_list_header">Your Task List</string>
+    <string name="timer_stopwatch_header">Timer Function</string>
+    <string name="widget_name">Task Widget</string>
+</resources>
